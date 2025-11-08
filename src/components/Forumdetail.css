@@ -1,0 +1,147 @@
+
+.forum-detail {
+  padding: 2rem;
+  background: #f4f6fa; 
+  min-height: 100vh;
+}
+
+.forum-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.forum-desc {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #2196f3;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+
+.messages-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.message-card {
+  background: #ffffff; 
+  border-radius: 1rem;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.avatar.small {
+  width: 26px;
+  height: 26px;
+  font-size: 0.8rem;
+}
+
+.message-text {
+  margin-bottom: 0.5rem;
+}
+
+.replies {
+  border-left: 3px solid #e0e0e0;
+  margin-left: 1rem;
+  padding-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.reply-card {
+  background: #ffffff; 
+  border-radius: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ececf0;
+}
+
+
+.reply-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.reply-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ececf0; 
+  background: #ffffff;       
+  color: #232323;          
+}
+
+.reply-form button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 0 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+
+.new-message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.new-message-form textarea {
+  resize: none;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ececf0;
+  min-height: 100px;
+  background: #ffffff;       
+  color: #232323;          
+  font-family: Arial, sans-serif;
+}
+
+.new-message-form button {
+  align-self: flex-end;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.no-message {
+  color: #777;
+  font-style: italic;
+  text-align: center;
+}
